@@ -1,0 +1,212 @@
+/* Fallback tokens for pages that don't load style.css (e.g. user.html) -
+   same values as style.css's :root, so the pass-buy modal styles below
+   (many of which use these without a var() fallback) render correctly there
+   too. Harmless redeclaration on passes.html, which already has them. */
+:root{
+  --text:#1E293B;
+  --text-light:#64748B;
+  --bg-alt:#F8FAFC;
+  --border:#E2E8F0;
+}
+
+.legal-hero-compact{min-height:auto}
+.legal-hero-compact .legal-hero-inner{padding:28px 0}
+.legal-hero-compact .legal-hero-inner h1{font-size:26px;margin-bottom:8px}
+.legal-hero-compact .legal-breadcrumb{margin-bottom:8px}
+.legal-hero-compact .legal-hero-rule{margin-bottom:10px}
+.legal-hero-compact .legal-hero-inner p{display:none}
+
+.legal-hero-banner-style{
+  background:
+    linear-gradient(90deg,#EFF6FF 0%,rgba(239,246,255,.88) 45%,rgba(239,246,255,.55) 75%,rgba(239,246,255,.15) 100%),
+    var(--tenant-banner-bg, url('../assets/images/results-banner-scene.png'));
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  border-bottom:1px solid var(--border)
+}
+.legal-hero-banner-style .legal-breadcrumb{color:var(--text-light)}
+.legal-hero-banner-style .legal-breadcrumb a{color:var(--primary)}
+.legal-hero-banner-style .legal-hero-inner h1{color:var(--primary-dark)}
+.legal-hero-banner-style .legal-hero-inner p{color:var(--text-light)}
+
+.nav a.active{color:var(--primary)}
+.nav a.active{position:relative}
+.nav a.active::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;background:var(--accent);border-radius:2px}
+
+.passes-body{display:grid;grid-template-columns:1fr 260px;gap:24px;align-items:start;padding:40px 24px 80px}
+.passes-main-full{min-width:0}
+
+.passes-cat-card{background:#fff;border-radius:var(--radius,12px);box-shadow:var(--shadow,0 4px 16px rgba(15,23,42,.08));overflow:hidden}
+.passes-cat-card h3{font-size:15px;font-weight:700;color:#fff;background:var(--primary-dark);padding:16px 20px}
+.passes-cat-nav{display:flex;flex-direction:column}
+.passes-cat-nav a{display:flex;align-items:center;gap:10px;padding:13px 20px;font-size:14px;font-weight:600;color:var(--text);text-decoration:none;border-bottom:1px solid var(--border,#EEF2F7)}
+.passes-cat-nav a:last-child{border-bottom:none}
+.passes-cat-nav a i{width:16px;color:var(--text-light);font-size:13px}
+.passes-cat-nav a span{margin-left:auto;font-size:12px;color:var(--text-light);font-weight:700}
+.passes-cat-nav a:hover{background:var(--bg-alt)}
+.passes-cat-nav a.active{background:var(--primary);color:#fff}
+.passes-cat-nav a.active i,.passes-cat-nav a.active span{color:#fff}
+
+.passes-toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+.passes-toolbar #passesCount{font-size:14px;color:var(--text-light)}
+.passes-sort{display:flex;align-items:center;gap:8px}
+.passes-sort label{font-size:13px;color:var(--text-light);font-weight:600}
+.passes-sort select{padding:8px 14px;border:1px solid var(--border,#E2E8F0);border-radius:8px;font-family:inherit;font-size:13px;color:var(--text);background:#fff;cursor:pointer}
+
+.passes-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.passes-grid.passes-grid-empty{grid-template-columns:1fr}
+.passes-grid .state-msg{padding:48px 20px;text-align:center;color:var(--text-light);background:#fff;border-radius:var(--radius,12px);box-shadow:var(--shadow,0 4px 16px rgba(15,23,42,.08))}
+.passes-grid .state-msg.error{color:#DC2626}
+.passes-grid .pass-apply-cta{display:flex;flex-direction:column;align-items:center;gap:16px}
+.passes-grid .pass-apply-cta p{max-width:420px;margin:0}
+.passes-grid .pass-apply-cta .btn{min-width:220px}
+.passes-grid .pass-card{width:100%}
+.passes-grid .pass-card-body{padding:18px 18px 18px}
+.passes-grid .pass-card-body p{min-height:auto;margin-bottom:14px}
+.pass-card-foot{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.pass-active-badge{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:#16A34A}
+.pass-price{font-size:17px;font-weight:800;color:var(--primary-dark)}
+.btn-sm{padding:9px 16px;font-size:13px;border-radius:8px}
+
+.p3-front.p3-weekly{background:linear-gradient(145deg,#0b2a4a,#1d4ed8)}
+.p3-front.p3-women{background:linear-gradient(145deg,#4a0d2a,#be123c)}
+.p3-front.p3-holiday{background:linear-gradient(145deg,#0b3a3a,#0e7490)}
+.p3-front.p3-loyalty{background:linear-gradient(145deg,#0d1f4a,#1e40af)}
+
+.passes-promo{display:flex;flex-direction:column;gap:20px}
+.passes-why-card{background:#fff;border-radius:var(--radius,12px);box-shadow:var(--shadow,0 4px 16px rgba(15,23,42,.08));padding:22px}
+.passes-why-card h3{font-size:15px;font-weight:700;color:var(--primary-dark);display:flex;align-items:center;gap:8px;margin-bottom:14px}
+.passes-why-card h3 i{color:var(--primary)}
+.passes-why-card ul{display:flex;flex-direction:column;gap:12px}
+.passes-why-card li{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text)}
+.passes-why-card li i{color:#16A34A;font-size:14px}
+
+.passes-cta-card{background:var(--bg-alt);border-radius:var(--radius,12px);padding:22px;position:relative;overflow:hidden}
+.passes-cta-card h3{font-size:19px;font-weight:800;color:var(--primary-dark);margin-bottom:8px}
+.passes-cta-card p{font-size:13px;color:var(--text-light);margin-bottom:16px}
+.passes-cta-card img{width:100%;border-radius:10px}
+
+.pass-modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.55);display:none;align-items:center;justify-content:center;padding:24px;z-index:1000}
+.pass-modal-backdrop.open{display:flex}
+.pass-modal{background:#fff;border-radius:16px;max-width:820px;width:100%;max-height:90vh;overflow-y:auto;position:relative;box-shadow:0 24px 60px rgba(15,23,42,.35)}
+.pass-modal-close{position:absolute;top:16px;right:16px;width:32px;height:32px;border-radius:50%;border:1px solid var(--border,#E2E8F0);background:#fff;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;z-index:2}
+.pass-modal-close:hover{background:var(--bg-alt)}
+.pass-modal-body{display:grid;grid-template-columns:280px 1fr;gap:0}
+.pass-modal-left{padding:32px 28px;border-right:1px solid var(--border,#EEF2F7);display:flex;flex-direction:column}
+.pass-modal-left .pass3d{height:170px;margin-bottom:18px;background:transparent}
+.pass-modal-left .pass3d>div{width:100%;height:128px;position:static;transform:none;box-shadow:0 16px 32px rgba(15,23,42,.24)}
+.pass-modal-left .p3-back{display:none}
+.pass-modal-left h4{font-size:17px;font-weight:700;color:var(--primary-dark);margin-bottom:6px}
+.pass-modal-left p{font-size:13px;color:var(--text-light);line-height:1.5;margin-bottom:14px}
+.pass-modal-note{display:flex;gap:8px;align-items:flex-start;background:#EFF6FF;color:var(--primary);font-size:12px;line-height:1.5;padding:10px 12px;border-radius:8px;margin-bottom:18px}
+.pass-modal-note i{margin-top:2px;flex-shrink:0}
+.pass-modal-price-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto}
+.pass-modal-price-row .pass-price{font-size:22px}
+.pass-modal-price-row .btn{padding:11px 22px;border-radius:8px}
+.pass-modal-secure{display:flex;align-items:center;gap:8px;font-size:12px;color:#16A34A;font-weight:600;margin-top:14px}
+
+.pass-modal-right{padding:32px 32px 32px 28px}
+.pass-modal-right h3{font-size:17px;font-weight:700;color:var(--primary-dark);margin-bottom:8px}
+.pass-modal-tag{font-size:13px;color:var(--text-light);line-height:1.6;margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid var(--border,#EEF2F7)}
+.pass-modal-specs{display:flex;flex-direction:column;gap:12px;margin-bottom:20px}
+.pass-modal-specs li{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text)}
+.pass-modal-specs li i{width:16px;color:var(--primary);font-size:13px}
+.pass-modal-specs li span{color:var(--text-light);flex:1}
+.pass-modal-specs li b{color:var(--primary-dark);font-weight:700}
+.pass-modal-terms{background:var(--bg-alt);border-radius:10px;padding:16px 18px}
+.pass-modal-terms h4{font-size:13px;font-weight:700;color:var(--primary-dark);margin-bottom:10px}
+.pass-modal-terms ul{display:flex;flex-direction:column;gap:6px;padding-left:16px}
+.pass-modal-terms li{font-size:12px;color:var(--text-light);line-height:1.5;list-style:disc}
+
+.pass-modal-howworks{background:var(--accent-soft, #FFF7E6);border:1px solid var(--accent, #F59E0B);border-radius:10px;padding:16px 18px;margin-top:14px}
+.pass-modal-howworks h4{font-size:13px;font-weight:700;color:var(--primary-dark);margin-bottom:10px}
+.pass-modal-howworks ol{display:flex;flex-direction:column;gap:8px;padding-left:18px;margin:0}
+.pass-modal-howworks li{font-size:12px;color:var(--text);line-height:1.5}
+
+/* Prominent "How It Works" strip on the passes listing page */
+.pass-how{padding:36px 0 8px}
+.pass-how h2{font-size:22px;font-weight:800;color:var(--primary-dark);text-align:center;margin-bottom:24px}
+.pass-how-steps{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;align-items:stretch;justify-content:center;gap:18px;max-width:1100px;margin:0 auto}
+.pass-how-step{display:flex;flex-direction:column;text-align:center;background:#fff;border:1px solid var(--border,#EEF2F7);border-radius:14px;padding:22px 16px;box-shadow:var(--shadow);height:100%}
+.pass-how-icon{width:56px;height:56px;border-radius:50%;background:var(--accent-soft,#FFF7E6);color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:22px;margin:0 auto 14px;flex-shrink:0}
+.pass-how-step h3{font-size:15px;font-weight:700;color:var(--primary-dark);margin-bottom:6px}
+.pass-how-step p{font-size:12.5px;color:var(--text-light);line-height:1.5;margin:0}
+.pass-how-arrow{align-self:center;color:var(--accent);font-size:18px}
+
+@media(max-width:900px){
+  .pass-how-arrow{display:none}
+  .pass-how-steps{grid-template-columns:1fr}
+}
+
+@media(max-width:700px){
+  .pass-modal-body{grid-template-columns:1fr}
+  .pass-modal-left{border-right:none;border-bottom:1px solid var(--border,#EEF2F7)}
+}
+
+@media(max-width:1100px){
+  .passes-body{grid-template-columns:1fr;padding:32px 20px 60px}
+  .passes-promo{flex-direction:row}
+  .passes-promo>*{flex:1}
+}
+@media(max-width:800px){
+  .passes-grid{grid-template-columns:1fr}
+  .passes-promo{flex-direction:column}
+}
+
+/* Buy-pass form + purchase status */
+.pass-buy-form{margin-top:16px;padding-top:16px;border-top:1px solid var(--border,#EEF2F7)}
+.pass-buy-form label{display:block;font-size:12px;font-weight:600;color:var(--text-light);margin-bottom:6px}
+.pass-buy-phone-row{display:flex;align-items:center;border:1px solid var(--border,#E2E8F0);border-radius:8px;overflow:hidden;margin-bottom:8px}
+.pass-buy-phone-row span{padding:11px 12px;background:var(--bg-alt);font-size:13px;font-weight:600;color:var(--text);border-right:1px solid var(--border,#E2E8F0)}
+.pass-buy-phone-row input{flex:1;border:none;padding:11px 12px;font-family:inherit;font-size:14px;color:var(--text)}
+.pass-buy-phone-row input:focus{outline:none}
+.pass-buy-phone-readonly{background:var(--bg-alt);padding:11px 12px;border:none}
+.pass-buy-phone-readonly span{background:none;border:none;padding:0;font-size:14px;font-weight:600;color:var(--text)}
+.pass-buy-error{color:#DC2626;font-size:12px;min-height:16px;margin-bottom:8px}
+.pass-buy-form .btn{width:100%;padding:12px;border-radius:8px}
+.pass-buy-actions{display:flex;flex-direction:column;gap:8px}
+.pass-buy-actions .btn{width:100%}
+
+.pass-status-view{margin-top:16px;padding-top:16px;border-top:1px solid var(--border,#EEF2F7);text-align:center}
+.pass-status-icon{font-size:32px;color:var(--primary);margin-bottom:10px}
+.pass-status-icon .fa-check-circle{color:#16A34A}
+.pass-status-icon .fa-circle-xmark{color:#DC2626}
+.pass-status-view p{font-size:13px;color:var(--text-light);line-height:1.5}
+.pass-status-result{margin-top:14px}
+.pass-status-hint{font-size:11.5px!important;color:var(--text-light);margin-top:10px!important}
+
+/* OTP step - draws the eye when it first replaces the Paytm widget so it
+   doesn't read as the page just silently changing on its own. */
+.pass-otp-view{margin-top:16px;padding:16px;border-radius:12px;border:1px solid var(--border,#EEF2F7);text-align:center}
+.pass-otp-view.just-shown{animation:passOtpAttention .9s ease-out}
+@keyframes passOtpAttention{
+  0%{background:#FFFBEB;border-color:#FBBF24;box-shadow:0 0 0 4px rgba(251,191,36,.25)}
+  100%{background:transparent;border-color:var(--border,#EEF2F7);box-shadow:0 0 0 0 rgba(251,191,36,0)}
+}
+@media (prefers-reduced-motion: reduce){
+  .pass-otp-view.just-shown{animation:none;background:#FFFBEB;border-color:#FBBF24}
+}
+.pass-otp-view h3{font-size:17px;margin-bottom:4px}
+
+/* 3D travel-card visual - base rules (normally in style.css, which user.html
+   doesn't load) needed for the pass-buy modal's card preview there too. */
+.pass3d{height:170px;position:relative;display:flex;align-items:center;justify-content:center;background:linear-gradient(150deg,#eef3fb,#e3ebf7);overflow:hidden}
+.pass3d>div{width:212px;height:128px;border-radius:16px;position:absolute}
+.p3-back{background:var(--primary-light);opacity:.7;transform:rotate(-10deg) translate(-10px,10px);box-shadow:0 10px 24px rgba(15,23,42,.18)}
+.p3-front{background:linear-gradient(145deg,var(--primary-dark),var(--primary));color:#fff;transform:rotate(5deg);padding:14px 15px;display:flex;flex-direction:column;box-shadow:0 16px 32px rgba(15,23,42,.32);position:relative;isolation:isolate}
+.p3-front::after{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,rgba(255,255,255,.22) 0%,rgba(255,255,255,0) 32%);pointer-events:none}
+.p3-front.p3-student{background:linear-gradient(145deg,#0d3b3e,#0f766e)}
+.p3-front.p3-senior{background:linear-gradient(145deg,#3b2410,#92400e)}
+.p3-front.p3-corporate{background:linear-gradient(145deg,#1e1b3a,#4338ca)}
+.p3-front.p3-family{background:linear-gradient(145deg,#3f1d38,#a3327e)}
+.p3-top{display:flex;justify-content:space-between;align-items:center;font-size:7.5px;font-weight:900;letter-spacing:1.2px}
+.p3-top i{font-size:9px;opacity:.9}
+.p3-chip{width:26px;height:19px;border-radius:4px;background:linear-gradient(135deg,#f4d68b,#b9872b);margin:12px 0 9px}
+.p3-front small{font-size:6px;letter-spacing:1.6px;color:#c3d3ea}
+.p3-front>strong{font-size:15px;line-height:1.05;margin-top:3px;letter-spacing:-.2px}
+.p3-bottom{margin-top:auto;display:flex;align-items:center;justify-content:space-between;font-size:5.5px;letter-spacing:.8px;color:#c3d3ea}
+.p3-bottom b{font-size:13px;color:var(--accent);letter-spacing:0}
+
+/* .btn sets display, which beats the [hidden] attribute - keep hidden modal controls hidden */
+.pass-modal [hidden]{display:none!important}

@@ -1,0 +1,33 @@
+HTTrack3.51-0 launched on Sun, 01 Nov 2026 17:02:32 at https://www.mahaveerbusservice.com/index +*.png +*.gif +*.jpg +*.jpeg +*.webp +*.avif +*.svg +*.css +*.js +*.woff2 +*.woff +*.ttf +*.otf +*.mp4 +*.webm -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2%f#f -F "Mozilla/5.0 (compatible; HTTrack/3.x; +https://www.httrack.com/)" -%F "<!-- Mirrored from {url} by HTTrack Website Copier/3.x [XR&CO], {date} -->" -%l "en, *" https://www.mahaveerbusservice.com/index -O1 C:\Users\hp\Desktop\mahaveer\mahaveer +*.png +*.gif +*.jpg +*.jpeg +*.webp +*.avif +*.svg +*.css +*.js +*.woff2 +*.woff +*.ttf +*.otf +*.mp4 +*.webm -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:04:17	Warning: 	Moved Permanently for https://www.mahaveerbusservice.com/
+17:04:17	Warning: 	File has moved from https://www.mahaveerbusservice.com/ to https://www.mahaveerbusservice.com/index
+17:04:17	Info: 	Retry after error -4 (Incorrect length (1899922 Bytes, 2857761 expected)) at link https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337144558.png (from https://www.mahaveerbusservice.com/index)
+17:04:17	Info: 	Retry after error -4 (Incorrect length (1129874 Bytes, 2663726 expected)) at link https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337144933.png (from https://www.mahaveerbusservice.com/index)
+17:04:17	Info: 	Retry after error -4 (Incorrect length (32146 Bytes, 2663726 expected)) at link https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337145313.png (from https://www.mahaveerbusservice.com/index)
+17:04:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337144933.png
+17:04:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337145313.png
+17:04:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337144558.png
+17:04:33	Info: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337145748.png (from https://www.mahaveerbusservice.com/index)
+17:04:43	Warning: 	Link https://www.mahaveerbusservice.com/my-bookings not scanned (follow robots meta tag)
+17:04:44	Warning: 	Link https://www.mahaveerbusservice.com/profile not scanned (follow robots meta tag)
+17:05:22	Info: 	Retry after error -4 (Incorrect length (1424786 Bytes, 2625053 expected)) at link https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337145748.png (from https://www.mahaveerbusservice.com/index)
+17:05:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337145748.png
+17:05:23	Info: 	Retry after error -4 (Incorrect length (884482 Bytes, 1137556 expected)) at link https://www.mahaveerbusservice.com/assets/images/results-banner-scene.png (from https://www.mahaveerbusservice.com/css/passes.css)
+17:05:26	Info: 	Retry after error -4 (No data (connection closed)) at link https://www.mahaveerbusservice.com/js/routes.js?v=3486b1d223 (from https://www.mahaveerbusservice.com/routes)
+17:05:27	Warning: 	Moved Permanently for https://www.mahaveerbusservice.com/passes/
+17:05:27	Warning: 	File has moved from https://www.mahaveerbusservice.com/passes/ to https://www.mahaveerbusservice.com/index
+17:05:27	Warning: 	Moved Permanently for https://www.mahaveerbusservice.com/purchase/
+17:05:27	Warning: 	File has moved from https://www.mahaveerbusservice.com/purchase/ to https://www.mahaveerbusservice.com/index
+17:05:27	Warning: 	Moved Permanently for https://www.mahaveerbusservice.com/applications/
+17:05:27	Warning: 	File has moved from https://www.mahaveerbusservice.com/applications/ to https://www.mahaveerbusservice.com/index
+17:05:28	Warning: 	Link https://www.mahaveerbusservice.com/service-detail?slug= not scanned (follow robots meta tag)
+
+HTTrack Website Copier/3.51-0 mirror complete in 3 minutes 33 seconds : 106 links scanned, 93 files written (28869232 bytes overall) [32695241 bytes received at 153498 bytes/sec], 1109108 bytes transferred using HTTP compression in 19 files, ratio 35%, 2.1 requests per connection
+(No errors, 15 warnings, 7 messages)

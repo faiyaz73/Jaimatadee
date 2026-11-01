@@ -1,0 +1,124 @@
+.auth-modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.6);display:none;align-items:center;justify-content:center;padding:20px;z-index:2000}
+.auth-modal-backdrop.open{display:flex}
+.auth-modal{background:#fff;border-radius:18px;max-width:860px;width:100%;max-height:92vh;overflow:hidden auto;position:relative;box-shadow:0 30px 70px rgba(15,23,42,.4)}
+.auth-modal-close{position:absolute;top:18px;right:18px;width:34px;height:34px;border-radius:50%;border:1px solid var(--border,#E2E8F0);background:#fff;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;z-index:2}
+.auth-modal-close:hover{background:var(--bg-alt)}
+.auth-modal-body{display:grid;grid-template-columns:1fr 1fr}
+
+.auth-modal-left{position:relative;padding:36px 34px 200px;overflow:hidden;border-radius:18px 0 0 18px}
+.auth-modal-left-logo{margin-bottom:26px}
+.auth-modal-left-logo img{height:34px}
+.auth-modal-left h2{font-size:26px;font-weight:800;color:var(--primary-dark);margin-bottom:10px}
+.auth-modal-left p{font-size:14px;color:var(--text-light);line-height:1.5;max-width:280px}
+.auth-modal-left-img{position:absolute;left:0;right:0;bottom:0;height:200px}
+.auth-modal-left-img img{width:100%;height:100%;object-fit:cover;display:block}
+
+.auth-modal-right{padding:40px 40px 36px;display:flex;flex-direction:column}
+.auth-step{display:none;flex-direction:column;flex:1}
+.auth-step.active{display:flex}
+
+.auth-step-icon{width:64px;height:64px;border-radius:50%;background:#EFF6FF;color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:24px;margin:0 auto 18px}
+.auth-step h3{font-size:20px;font-weight:800;color:var(--primary-dark);text-align:center;margin-bottom:8px}
+.auth-step-sub{font-size:13px;color:var(--text-light);text-align:center;margin-bottom:22px;line-height:1.5}
+.auth-step-sub b{color:var(--primary);font-weight:700}
+.auth-step-sub .auth-edit-number{background:none;border:none;color:var(--primary);cursor:pointer;font-size:12px;margin-left:4px}
+
+.auth-phone-field{display:flex;align-items:center;border:1px solid var(--border,#E2E8F0);border-radius:10px;overflow:hidden;margin-bottom:16px}
+.auth-phone-prefix{padding:13px 14px;background:var(--bg-alt);color:var(--text);font-size:14px;font-weight:600;border-right:1px solid var(--border,#E2E8F0)}
+.auth-phone-field input{flex:1;border:none;padding:13px 14px;font-family:inherit;font-size:14px;color:var(--text)}
+.auth-phone-field input:focus{outline:none}
+.auth-phone-field:focus-within{border-color:var(--primary)}
+
+.auth-otp-row{display:flex;gap:10px;justify-content:center;margin-bottom:18px}
+.auth-otp-row input{width:44px;height:52px;text-align:center;font-size:20px;font-weight:700;border:1px solid var(--border,#E2E8F0);border-radius:10px;font-family:inherit;color:var(--text)}
+.auth-otp-row input:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(30,58,138,.12)}
+
+.auth-resend-row{text-align:center;font-size:13px;color:var(--text-light);margin-bottom:20px}
+.auth-resend-row button{background:none;border:none;color:var(--primary);font-weight:700;cursor:pointer;font-size:13px}
+.auth-resend-row button:disabled{color:var(--text-light);cursor:not-allowed;font-weight:400}
+.auth-resend-row .auth-timer{color:var(--accent);font-weight:700}
+
+.auth-secure-note{display:flex;gap:10px;align-items:flex-start;background:#EFF6FF;border-radius:10px;padding:12px 14px;margin-bottom:20px}
+.auth-secure-note i{color:var(--primary);font-size:15px;margin-top:2px;flex-shrink:0}
+.auth-secure-note strong{display:block;font-size:13px;color:var(--text);margin-bottom:2px}
+.auth-secure-note span{font-size:12px;color:var(--text-light)}
+
+.auth-step-btn{width:100%;justify-content:center;padding:14px;border-radius:10px;font-size:15px;margin-top:auto}
+.auth-step-error{color:#DC2626;font-size:12px;text-align:center;margin:-8px 0 14px;display:none}
+.auth-step-error.show{display:block}
+
+@media(max-width:760px){
+  .auth-modal-body{grid-template-columns:1fr}
+  .auth-modal-left{display:none}
+  .auth-modal-right{padding:32px 24px 28px}
+}
+
+@media(max-width:560px){
+  .auth-modal-backdrop{padding:0}
+  .auth-modal{max-width:100%;width:100%;height:100%;max-height:100%;border-radius:0}
+  .auth-modal-right{height:100%}
+}
+
+/* Login-required dialog */
+.lr-dialog-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.6);display:none;align-items:center;justify-content:center;padding:20px;z-index:2100}
+.lr-dialog-backdrop.open{display:flex}
+.lr-dialog{background:#fff;border-radius:18px;max-width:360px;width:100%;padding:28px 26px;text-align:center;box-shadow:0 30px 70px rgba(15,23,42,.4)}
+.lr-dialog-icon{width:56px;height:56px;border-radius:50%;background:#EFF6FF;color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:22px;margin:0 auto 14px}
+.lr-dialog h3{font-size:17px;font-weight:800;color:var(--primary-dark);margin-bottom:6px}
+.lr-dialog p{font-size:13px;color:var(--text-light);line-height:1.4;margin-bottom:20px}
+.lr-dialog-actions{display:flex;gap:10px}
+.lr-dialog-actions .btn{flex:1;padding:11px;font-size:13px}
+
+/* Header auth-state buttons: .btn sets display explicitly, which otherwise
+   beats the [hidden] attribute's UA-stylesheet display:none - force it here
+   so js-open-auth/js-profile-btn/js-bookings-btn actually hide when toggled. */
+.js-open-auth[hidden],.js-profile-btn[hidden],.js-bookings-btn[hidden]{display:none!important}
+
+/* Header profile icon button */
+.js-profile-btn{width:38px;height:38px;border-radius:50%;background:var(--bg-alt);border:1px solid var(--border,#E2E8F0);color:var(--primary-dark);display:flex;align-items:center;justify-content:center;font-size:15px;text-decoration:none;transition:.2s}
+.js-profile-btn:hover{background:var(--primary);color:#fff;border-color:var(--primary)}
+.drawer-login.js-profile-btn{width:auto;height:auto;border-radius:10px;padding:12px;gap:8px;font-size:14px;font-weight:600}
+
+/* Header My Bookings button — outline, deliberately low-key next to the Book Tickets nav pill */
+.js-bookings-btn{
+  text-decoration:none;
+  padding:5px 10px!important;
+  font-weight:500!important;
+  border-width:2px;
+}
+
+/* Header boarding-code pill — deliberately eye-catching (pulsing, high-contrast green) since
+   missing it means the passenger loses their pass discount at boarding. */
+.js-boarding-pill{display:flex;align-items:center;gap:8px;background:#16A34A;color:#fff;font-weight:700;font-size:14px;padding:9px 16px;border-radius:24px;cursor:pointer;border:none;box-shadow:0 0 0 0 rgba(22,163,74,.6);animation:jbp-pulse 2.2s infinite;transition:.2s}
+.js-boarding-pill:hover{background:#15803D;transform:translateY(-1px)}
+.js-boarding-pill[hidden]{display:none!important}
+.js-boarding-pill i{font-size:13px}
+.js-boarding-pill .jbp-label{font-weight:600;opacity:.9}
+.js-boarding-pill .jbp-code{font-size:16px;letter-spacing:1px}
+@keyframes jbp-pulse{
+  0%{box-shadow:0 0 0 0 rgba(22,163,74,.55)}
+  70%{box-shadow:0 0 0 10px rgba(22,163,74,0)}
+  100%{box-shadow:0 0 0 0 rgba(22,163,74,0)}
+}
+.drawer-boarding-pill{width:100%;justify-content:center;padding:14px;border-radius:10px;margin-top:8px}
+
+/* Boarding-code detail modal */
+.jbp-modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.6);display:none;align-items:center;justify-content:center;padding:20px;z-index:2200}
+.jbp-modal-backdrop.open{display:flex}
+.jbp-modal{background:#fff;border-radius:18px;max-width:360px;width:100%;padding:32px 28px;text-align:center;position:relative;box-shadow:0 30px 70px rgba(15,23,42,.4)}
+.jbp-modal-close{position:absolute;top:14px;right:14px;width:30px;height:30px;border-radius:50%;border:1px solid var(--border,#E2E8F0);background:#fff;color:var(--text);cursor:pointer;font-size:13px}
+.jbp-modal-close:hover{background:var(--bg-alt)}
+.jbp-modal h3{font-size:18px;font-weight:800;color:var(--primary-dark);margin-bottom:8px}
+.jbp-modal p{font-size:13px;color:var(--text-light);line-height:1.5;margin-bottom:16px}
+.jbp-modal-note{font-size:11px!important;color:var(--text-light);margin-bottom:0!important;margin-top:16px}
+
+/* Ticket-stub boarding-code card — mirrors the mobile app's torn-ticket look */
+.jbp-ticket{position:relative;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 6px 18px rgba(15,23,42,.12)}
+.jbp-ticket-notch{position:absolute;top:34px;width:16px;height:16px;background:var(--bg-alt,#F5F6FA);border-radius:50%;transform:translateY(-50%);z-index:2}
+.jbp-ticket-notch.left{left:-8px}
+.jbp-ticket-notch.right{right:-8px}
+.jbp-ticket-head{background:#2F9E44;color:#fff;font-size:12px;font-weight:800;letter-spacing:1px;padding:12px 0;text-align:center}
+.jbp-ticket-head i{font-size:10px;margin:0 6px}
+.jbp-ticket-body{padding:22px 20px 20px;text-align:center;border-top:2px dashed #E0E0E0}
+.jbp-ticket-code{font-size:40px;font-weight:800;letter-spacing:6px;color:#2F9E44}
+.jbp-ticket-helper{font-size:11.5px;color:var(--text-light);margin-top:8px!important;margin-bottom:0!important}

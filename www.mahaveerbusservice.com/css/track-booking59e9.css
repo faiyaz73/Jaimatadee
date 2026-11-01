@@ -1,0 +1,71 @@
+.track-hero{position:relative;min-height:280px;display:flex;align-items:center;overflow:hidden;background:linear-gradient(90deg,#fff 0%,#fff 40%,rgba(255,255,255,.6) 65%,rgba(255,255,255,.1) 100%)}
+.track-hero-bg{position:absolute;inset:0;z-index:0}
+.track-hero-bg img{width:100%;height:100%;object-fit:cover;object-position:75% center;mask-image:linear-gradient(90deg,transparent 0%,transparent 32%,#000 60%);-webkit-mask-image:linear-gradient(90deg,transparent 0%,transparent 32%,#000 60%)}
+.track-hero-inner{position:relative;z-index:1;padding:56px 0}
+.track-hero-eyebrow{display:block;font-size:12px;font-weight:800;letter-spacing:1px;color:var(--primary);text-transform:uppercase;margin-bottom:10px}
+.track-hero-inner h1{font-size:38px;font-weight:800;color:var(--primary-dark);margin-bottom:14px}
+.track-hero-inner p{font-size:15px;color:var(--text-light);max-width:420px;line-height:1.6}
+
+.track-body{padding:0 24px 60px;max-width:1000px}
+
+.track-form-card{background:#fff;border-radius:16px;box-shadow:0 10px 34px rgba(15,23,42,.12);padding:32px;margin-top:-24px;position:relative;z-index:2}
+.track-form-grid{display:grid;grid-template-columns:1fr 1fr auto;gap:16px;align-items:end}
+.track-field label{display:block;font-size:13px;font-weight:700;color:var(--text);margin-bottom:8px}
+.track-field-input{position:relative}
+.track-field-input input{width:100%;padding:13px 40px 13px 14px;border:1px solid var(--border,#E2E8F0);border-radius:8px;font-family:inherit;font-size:14px;color:var(--text)}
+.track-field-input input:focus{outline:none;border-color:var(--primary)}
+.track-field-input i{position:absolute;right:14px;top:50%;transform:translateY(-50%);color:var(--text-light);font-size:14px;pointer-events:none}
+.track-field-row{display:flex;gap:8px}
+.track-field-prefix{display:flex;align-items:center;gap:6px;padding:0 14px;border:1px solid var(--border,#E2E8F0);border-radius:8px;font-size:14px;color:var(--text);font-weight:600;flex-shrink:0}
+.track-field-prefix i{font-size:10px;color:var(--text-light)}
+.track-field-row .track-field-input{flex:1}
+.track-submit-btn{padding:13px 28px;border-radius:8px;font-size:14px;white-space:nowrap}
+.track-form-error{color:#DC2626;font-size:12px;margin-top:10px;display:none}
+.track-form-error.show{display:block}
+
+.track-divider{display:flex;align-items:center;gap:14px;margin:22px 0;color:var(--text-light);font-size:12px;font-weight:700}
+.track-divider::before,.track-divider::after{content:"";flex:1;height:1px;background:var(--border,#E2E8F0)}
+
+.track-login-cta{display:flex;align-items:center;justify-content:center;gap:10px;border:1.5px solid var(--primary);color:var(--primary);font-weight:700;font-size:14px;padding:15px;border-radius:10px;text-decoration:none}
+.track-login-cta:hover{background:#EFF6FF}
+.track-login-cta i:last-child{font-size:12px}
+
+.track-features{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:var(--bg-alt);border-radius:14px;padding:24px 20px;margin:28px 0}
+.track-feature{display:flex;gap:12px;align-items:flex-start;padding:0 16px}
+.track-feature-icon{width:38px;height:38px;border-radius:50%;background:#DBEAFE;color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.track-feature strong{display:block;font-size:14px;color:var(--primary-dark);margin-bottom:2px}
+.track-feature p{font-size:12px;color:var(--text-light);line-height:1.4}
+
+.track-howto-card{display:grid;grid-template-columns:1fr 300px;gap:32px;align-items:center;background:#fff;border:1px solid var(--border,#EEF2F7);border-radius:14px;padding:28px 32px;margin-bottom:24px}
+.track-howto-steps h3{font-size:18px;font-weight:700;color:var(--primary-dark);margin-bottom:18px}
+.track-howto-steps ol{display:flex;flex-direction:column;gap:16px;list-style:none}
+.track-howto-steps li{display:flex;align-items:center;gap:14px;font-size:14px;color:var(--text)}
+.track-step-num{width:26px;height:26px;border-radius:50%;background:var(--primary);color:#fff;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+
+.track-howto-illustration{position:relative;height:180px;display:flex;align-items:center;justify-content:center}
+.track-illust-phone{width:100px;height:150px;border:3px solid var(--border,#E2E8F0);border-radius:16px;background:var(--bg-alt);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;position:relative;z-index:2}
+.track-illust-pnr-label{font-size:10px;font-weight:800;color:var(--primary);letter-spacing:1px}
+.track-illust-pnr-value{font-size:11px;font-weight:700;color:var(--text);border-bottom:2px solid var(--accent);padding-bottom:4px}
+.track-illust-check{width:26px;height:26px;border-radius:50%;background:#16A34A;color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;margin-top:6px}
+.track-illust-dots{display:flex;gap:5px;margin:0 10px;z-index:1}
+.track-illust-dots span{width:5px;height:5px;border-radius:50%;background:var(--border,#CBD5E1)}
+.track-illust-bus{font-size:38px;color:var(--border,#CBD5E1)}
+
+.track-help-banner{display:flex;align-items:center;justify-content:space-between;gap:20px;background:#EFF6FF;border-radius:14px;padding:24px 28px}
+.track-help-banner strong{display:block;font-size:15px;color:var(--primary-dark);margin-bottom:4px}
+.track-help-banner p{font-size:13px;color:var(--text-light)}
+.track-help-contact{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--border,#E2E8F0);border-radius:10px;padding:12px 20px}
+.track-help-contact i{color:var(--primary);font-size:16px}
+.track-help-contact span{display:block;font-size:11px;color:var(--text-light)}
+.track-help-contact strong{font-size:14px;color:var(--primary-dark)}
+
+.track-result-card{max-width:1000px;margin:-24px auto 60px;padding:0 24px}
+
+@media(max-width:900px){
+  .track-hero-bg img{mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.15) 100%);-webkit-mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.15) 100%)}
+  .track-form-grid{grid-template-columns:1fr}
+  .track-features{grid-template-columns:1fr 1fr;gap:20px}
+  .track-howto-card{grid-template-columns:1fr}
+  .track-help-banner{flex-direction:column;align-items:flex-start}
+}
+@media(max-width:560px){.track-features{grid-template-columns:1fr}}

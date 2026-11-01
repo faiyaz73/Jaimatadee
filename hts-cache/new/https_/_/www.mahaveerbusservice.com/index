@@ -1,0 +1,622 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>Mahaveer Bus Service - Online Bus Ticket Booking in Bharatpur, Rajasthan</title>
+<meta name="description" content="Book bus tickets online with Mahaveer Bus Service, Bharatpur, Rajasthan. Routes covering Gurugram, Kaman, Jaipur and Tijara. AC coaches, monthly passes, tour booking &amp; parcel service.">
+<meta name="keywords" content="bus ticket booking Bharatpur, Kaman to Jaipur bus, Rajasthan bus service, Gurugram to Kaman bus, Mahaveer Bus Service, Jaipur to Tijara bus, Bharatpur bus operator">
+<meta name="author" content="Mahaveer Bus Service">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.mahaveerbusservice.com/">
+<link rel="icon" href="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163138239.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap">
+<style id="tenant-theme-critical">:root{--primary:#7A1F1F;--primary-dark:#3A0D0D;--primary-light:#B91C1C;--accent:#D97706;--tenant-hero-bg:url('https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163139562.png');--tenant-banner-bg:url('https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163141453.png');}</style>
+<script>window.__TENANT_ID__="dipesh_jain";window.tenantImagePath=function(f){return "/assets/tenants/dipesh_jain/"+f;};window.__TENANT_CONFIG__={"id":"dipesh_jain","name":"Mahaveer Bus Service","assets":{"logo":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163138239.png","logoAlt":"Mahaveer Bus Service Logo","footerLogo":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163138831.png","favicon":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/svg1790163138931.svg","heroImage":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163139562.png","heroAlt":"Mahaveer Bus Service on mountain highway","aboutImage":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163140739.png","aboutImageAlt":"Mahaveer Bus Service Fleet","bannerImage":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163141453.png","passHeroImage":"/assets/tenants/dipesh_jain/pass-hero.png","passHeroAlt":"Mahaveer Bus Service coach on a mountain highway","googlePlayBadge":"/assets/tenants/dipesh_jain/google-play-badge.png","downloadAppImage":"/assets/tenants/dipesh_jain/download-app-visual.png","tourImage":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163142562.png","luggageImage":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163143656.png","busPhoto1":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163144729.png","busPhoto2":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163146232.png","busPhoto3":"https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163147350.png"},"contact":{"phoneDisplay":"+91 8740004790","phoneTel":"+91-98293-72120","telLink":"tel:+919829372120","email":"support@mahaveerbusservice.com","mailtoLink":"mailto:support@mahaveerbusservice.com","hours":"Mon - Sun, 6:00 AM - 10:00 PM"},"bookingEnabled":true,"passEnabled":false,"refundPolicy":[{"window":"More than 4 hours before departure","refund":"100% Refund"},{"window":"Between 2–4 hours before departure","refund":"100% Refund"},{"window":"Between 30 minutes–2 hours before departure","refund":"50% Refund"},{"window":"Within 30 minutes of departure","refund":"0% Refund"}],"routePhotos":["https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337144099.png","https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337144558.png","https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337144933.png","https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337145313.png","https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337145748.png","https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790337146091.png"]};window.applyTenantMarkers=function(root){function gp(o,p){return p.split(".").reduce(function(c,k){return c==null?undefined:c[k];},o);}var c=window.__TENANT_CONFIG__;root=root||document;root.querySelectorAll("[data-tenant-text]").forEach(function(el){var v=gp(c,el.getAttribute("data-tenant-text"));if(v!==undefined)el.textContent=v;});root.querySelectorAll("[data-tenant-src]").forEach(function(el){var v=gp(c,el.getAttribute("data-tenant-src"));if(v!==undefined)el.setAttribute("src",v);var a=el.getAttribute("data-tenant-alt");if(a){var av=gp(c,a);if(av!==undefined)el.setAttribute("alt",av);}});};</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="/css/style.css?v=ce47a0198f">
+<link rel="stylesheet" href="/css/index-v3.css">
+<link rel="stylesheet" href="/css/auth-modal.css?v=959aca7a06">
+<link rel="stylesheet" href="/css/home-dashboard.css?v=d50cfdf52f">
+<link rel="stylesheet" href="/css/pilgrimage.css?v=9e0d5bf23b">
+<link rel="stylesheet" href="/css/passes.css">
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Mahaveer Bus Service",
+  "url": "https://mahaveerbusservice.com/",
+  "logo": "https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163138239.png",
+  "foundingDate": "1951",
+  "email": "support@mahaveerbusservice.com",
+  "telephone": "+91-98293-72120"
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Mahaveer Bus Service",
+  "url": "https://mahaveerbusservice.com/"
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Mahaveer Bus Service",
+  "url": "https://mahaveerbusservice.com/",
+  "image": "https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163138239.png",
+  "telephone": "+91-98293-72120",
+  "email": "support@mahaveerbusservice.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Pujari Mohalla Pahari",
+    "addressLocality": "Bharatpur",
+    "addressRegion": "Rajasthan",
+    "addressCountry": "IN"
+  }
+}</script>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yh3k66txej");
+</script>
+</head>
+<body data-page="index_v3">
+
+<header class="v3-header">
+  <div class="v3-header-top container">
+    <a href="index" class="logo v3-logo">
+      <img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163138239.png" class="logo-full" alt="Mahaveer Bus Service Logo">
+      <span class="v3-since-badge"><span data-i18n="indexV3.header.since">SINCE</span> <span>1951</span></span>
+    </a>
+    <div class="v3-header-top-right">
+      <span class="v3-header-phone"><i class="fa-solid fa-phone"></i> <a href="tel:+919829372120">+91 8740004790</a><small>Mon - Sun, 6:00 AM - 10:00 PM</small></span>
+      <select class="lang-pill js-lang-select" aria-label="Language"><option value="en">English</option><option value="hi">हिंदी</option></select>
+      <a href="#" class="v3-btn-outline js-open-auth" data-i18n="nav.login">Login</a>
+      <span class="js-boarding-pill v3-boarding-pill" hidden><i class="fa-solid fa-ticket"></i> <span class="jbp-label" data-i18n="boardingModal.pill">Next Boarding Code</span> <strong class="jbp-code"></strong></span>
+      <a href="my-bookings" class="v3-btn-solid js-bookings-btn" hidden data-i18n="nav.myBookings">My Bookings</a>
+      <a href="profile" class="v3-profile-btn js-profile-btn" aria-label="Profile" hidden><i class="fa-solid fa-user"></i></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+  <nav class="main-nav v3-main-nav">
+    <div class="container v3-nav-inner">
+      <a href="index" class="active" data-i18n="indexV3.nav.home">Home</a>
+      
+      <a href="routes" data-i18n="indexV3.nav.routes">Routes</a>
+      <a href="pilgrimages" class="js-pilgrimage-nav-link" hidden data-i18n="indexV3.nav.pilgrimages">Pilgrimage Trips</a>
+      <a href="#about-v3" data-i18n="indexV3.nav.about">About Us</a>
+      <a href="help-center" data-i18n="indexV3.nav.help">Help Center</a>
+      <a href="contact" data-i18n="indexV3.nav.contact">Contact</a>
+      <a href="track-booking" class="v3-nav-track"><i class="fa-solid fa-magnifying-glass"></i> <span data-i18n="indexV3.nav.trackBooking">Track Booking</span></a>
+    </div>
+  </nav>
+</header>
+
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="side-drawer" id="sideDrawer">
+  <div class="side-drawer-head">
+    <img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163138239.png" alt="Mahaveer Bus Service Logo">
+    <button class="drawer-close" id="drawerClose" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <nav class="drawer-nav">
+    <a href="index" class="nav-highlight"><i class="fa-solid fa-house"></i> <span data-i18n="indexV3.nav.home">Home</span></a>
+    
+    <a href="routes"><i class="fa-solid fa-route"></i> <span data-i18n="indexV3.nav.routes">Routes</span></a>
+    <a href="pilgrimages" class="js-pilgrimage-nav-link" hidden><i class="fa-solid fa-place-of-worship"></i> <span data-i18n="indexV3.nav.pilgrimages">Pilgrimage Trips</span></a>
+    <a href="#about-v3"><i class="fa-solid fa-circle-info"></i> <span data-i18n="indexV3.nav.about">About Us</span></a>
+    <a href="help-center"><i class="fa-solid fa-circle-question"></i> <span data-i18n="indexV3.nav.help">Help Center</span></a>
+    <a href="contact"><i class="fa-solid fa-phone"></i> <span data-i18n="indexV3.nav.contact">Contact</span></a>
+    <a href="track-booking"><i class="fa-solid fa-magnifying-glass"></i> <span data-i18n="indexV3.nav.trackBooking">Track Booking</span></a>
+  </nav>
+  <select class="lang-pill-drawer js-lang-select" aria-label="Language"><option value="en">English</option><option value="hi">हिंदी</option></select>
+  <a href="#" class="v3-btn-solid drawer-login js-open-auth" data-i18n="nav.login">Login / Signup</a>
+  <div class="js-boarding-pill v3-boarding-pill drawer-boarding-pill" hidden><i class="fa-solid fa-ticket"></i> <span class="jbp-label" data-i18n="boardingModal.pill">Next Boarding Code</span> <strong class="jbp-code"></strong></div>
+  <a href="my-bookings" class="v3-btn-outline drawer-login js-bookings-btn" hidden><i class="fa-solid fa-ticket"></i> <span data-i18n="nav.myBookings">My Bookings</span></a>
+  <a href="profile" class="v3-btn-outline drawer-login js-profile-btn" hidden><i class="fa-solid fa-user"></i> <span data-i18n="indexV3.nav.myProfile">My Profile</span></a>
+</aside>
+
+<section class="hero hd-hero" id="loggedInDashboard" hidden>
+  <img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163139562.png" alt="Mahaveer Bus Service on mountain highway">
+  <div class="hd-hero-caption">
+    <h1><span data-i18n="dashboard.greeting">Good day</span>, <span id="hdUserName">there</span></h1>
+    <p data-i18n="dashboard.subhead">Here's your travel summary</p>
+  </div>
+</section>
+
+<div class="hd-wrap container" id="loggedInDashboardBody" hidden>
+  <div class="hd-grid">
+    <div class="hd-col-main">
+      <div id="hdTicketCard"></div>
+
+      <div class="hd-quick-actions">
+        <a href="my-bookings" class="hd-qa-btn"><i class="fa-solid fa-ticket"></i> <span data-i18n="dashboard.qaTickets">My Tickets</span></a>
+        
+        <a href="my-bookings" class="hd-qa-btn"><i class="fa-solid fa-clock-rotate-left"></i> <span data-i18n="dashboard.qaHistory">History</span></a>
+        <a href="routes" class="hd-qa-btn"><i class="fa-solid fa-route"></i> <span data-i18n="dashboard.qaRoutes">Search Routes</span></a>
+      </div>
+
+      <div id="hdPassBanner"></div>
+    </div>
+
+    <div class="hd-col-side">
+      <div class="hd-section-head">
+        <h2 class="routes-title" data-i18n="dashboard.popularRoutes">Popular Routes</h2>
+        <a href="routes" class="link-all" data-i18n="dashboard.viewAll">View All &rarr;</a>
+      </div>
+      <div id="hdRouteList"></div>
+    </div>
+  </div>
+
+  <div class="hd-section-head">
+    <h2 class="routes-title" data-i18n="dashboard.myTickets">Ticket History</h2>
+    <a href="my-bookings" class="link-all" data-i18n="dashboard.viewAll">View All &rarr;</a>
+  </div>
+  <div id="hdMyTickets"></div>
+
+  <div class="hd-section-head">
+    <h2 class="routes-title" data-i18n="dashboard.searchRoutes">Search Routes</h2>
+  </div>
+  <div id="hdSearchSlot"></div>
+</div>
+
+<script>
+(function(){
+  if (localStorage.getItem('np_access_token')) {
+    document.documentElement.classList.add('hd-checking');
+  }
+})();
+</script>
+
+<section class="hero hero-single v3-hero">
+  <img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163139562.png" class="v3-hero-img" alt="Mahaveer Bus Service on mountain highway">
+  <div class="v3-hero-overlay"></div>
+  <p class="v3-script-note v3-script-hero" data-i18n-html="indexV3.hero.scriptNote">Same Routes.<br>Stronger Connections.</p>
+  <div class="container v3-hero-content">
+    <div class="v3-hero-eyebrow" data-i18n="indexV3.hero.eyebrow">Travel With Trust</div>
+    <h1 class="v3-hero-title" data-i18n-swap="text" data-hi-text="राजस्थान भर में यात्रा करें">Travel Across Rajasthan</h1>
+    <p class="v3-hero-sub" data-i18n-swap="html" data-hi-html-b64="4KSX4KWB4KSw4KWB4KSX4KWN4KSw4KS+4KSuLCDgpJXgpL7gpK7gpL7gpIIsIOCknOCkr+CkquClgeCksCDgpJTgpLAg4KSk4KS/4KSc4KS+4KSw4KS+IOCkleCliyA8YnI+IOCkteCkv+CktuCljeCkteCkuOCkqOClgOCkryDgpLjgpYfgpLXgpL4g4KSU4KSwIOCkr+CkvuCkpuCkl+CkvuCksCDgpK/gpL7gpKTgpY3gpLDgpL7gpJPgpIIg4KSV4KWHIOCkuOCkvuCkpSDgpJzgpYvgpKHgpLzgpKTgpYcg4KS54KWB4KSP4KWk">Connecting Gurugram, Kaman, Jaipur and Tijara <br> with trusted service and unforgettable journeys.</p>
+    <div class="v3-hero-stats">
+      <div class="v3-hero-stat"><i class="fa-solid fa-crown"></i><div><strong>75+</strong><span data-i18n="indexV3.hero.statYears">Years Legacy</span></div></div>
+      <div class="v3-hero-stat"><i class="fa-solid fa-users"></i><div><strong data-i18n="indexV3.hero.statPassengersValue">Thousands</strong><span data-i18n="indexV3.hero.statPassengers">Happy Passengers</span></div></div>
+      <div class="v3-hero-stat"><i class="fa-solid fa-shield-halved"></i><div><strong data-i18n="indexV3.hero.statTrustedValue">Trusted</strong><span>Rajasthan</span></div></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="v3-search-card" id="search">
+      <div class="v3-search-tabs">
+        <button type="button" class="v3-search-tab active" data-tab="book"><i class="fa-solid fa-ticket"></i> <span data-i18n="indexV3.hero.tabBook">Book Ticket</span></button>
+        <a href="pilgrimages" class="v3-search-tab js-pilgrimage-nav-link" hidden><i class="fa-solid fa-place-of-worship"></i> <span data-i18n="indexV3.hero.tabPilgrimage">Pilgrimage Trips</span></a>
+        <a href="track-booking" class="v3-search-tab"><i class="fa-solid fa-magnifying-glass"></i> <span data-i18n="indexV3.hero.tabTrack">Track Booking</span></a>
+      </div>
+
+      <div class="v3-search-fields">
+        <div class="field autocomplete-field v3-field">
+          <label data-i18n="indexV3.hero.fromLabel">From</label>
+          <div class="field-input">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Select origin" data-i18n-attr="placeholder:indexV3.hero.fromPlaceholder" id="fromCity" autocomplete="off">
+          </div>
+          <input type="hidden" id="fromCityId">
+          <div class="autocomplete-dropdown" id="fromCityDropdown"></div>
+        </div>
+        <div class="swap-btn v3-swap-btn"><i class="fa-solid fa-repeat"></i></div>
+        <div class="field autocomplete-field v3-field">
+          <label data-i18n="indexV3.hero.toLabel">To</label>
+          <div class="field-input">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Select destination" data-i18n-attr="placeholder:indexV3.hero.toPlaceholder" id="toCity" autocomplete="off" disabled>
+          </div>
+          <input type="hidden" id="toCityId">
+          <div class="autocomplete-dropdown" id="toCityDropdown"></div>
+        </div>
+        <div class="field v3-field v3-field-date">
+          <label data-i18n="indexV3.hero.dateLabel">Journey Date</label>
+          <div class="field-input">
+            <i class="fa-solid fa-calendar"></i>
+            <input type="date" id="journeyDate">
+          </div>
+        </div>
+        <button class="v3-search-btn" id="searchSubmit"><span data-i18n="indexV3.hero.searchBuses">Search Buses</span> <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <p class="search-error" id="searchError" style="display:none;color:#DC2626;font-size:13px;margin-top:10px"></p>
+
+      <div class="v3-route-pills-row">
+        <span data-i18n="indexV3.hero.popularRoutesLabel">Popular routes:</span>
+        <div class="v3-route-pills"><button type="button" class="v3-route-pill" data-from="Jaipur" data-to="Kaman">Jaipur &rarr; Kaman</button><button type="button" class="v3-route-pill" data-from="Kaman" data-to="Jaipur">Kaman &rarr; Jaipur</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="feature-strip v3-trust-strip">
+  <div class="container">
+    <div class="feature-item">
+      <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+      <div><h4 data-i18n="indexV3.features.safe.title">Safe Journeys</h4><p data-i18n="indexV3.features.safe.desc">Your safety is our priority</p></div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon"><i class="fa-solid fa-snowflake"></i></div>
+      <div><h4 data-i18n="indexV3.features.ac.title">AC Coaches</h4><p data-i18n="indexV3.features.ac.desc">Travel in comfort</p></div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon"><i class="fa-solid fa-couch"></i></div>
+      <div><h4 data-i18n="indexV3.features.recliner.title">Recliner Seats</h4><p data-i18n="indexV3.features.recliner.desc">Relax on every journey</p></div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon"><i class="fa-solid fa-clock"></i></div>
+      <div><h4 data-i18n="indexV3.features.onTime.title">On-Time Service</h4><p data-i18n="indexV3.features.onTime.desc">Reach on time, always</p></div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon"><i class="fa-solid fa-id-badge"></i></div>
+      <div><h4 data-i18n="indexV3.features.drivers.title">Experienced Drivers</h4><p data-i18n="indexV3.features.drivers.desc">Trained &amp; professional</p></div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+      <div><h4 data-i18n="indexV3.features.trusted.title">Trusted Service</h4><p><span data-i18n="indexV3.features.trusted.desc">Since</span> <span>1951</span></p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section section-routes" id="routes-v3">
+  <div class="container">
+    <div class="v3-routes-grid">
+      <div class="v3-routes-main">
+        <div class="section-head">
+          <h2 data-i18n="indexV3.routes.heading">Popular Routes</h2>
+          <a href="routes" data-i18n="indexV3.routes.viewAll">View All Routes <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="routes-wrap">
+          <div class="routes-row" id="routesRow">
+            <p class="state-msg loading">Loading routes...</p>
+          </div>
+          <button class="scroll-arrow left" id="routesRowPrev" onclick="document.getElementById('routesRow').scrollBy({left:-240,behavior:'smooth'})">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="scroll-arrow right" id="routesRowNext" onclick="document.getElementById('routesRow').scrollBy({left:240,behavior:'smooth'})">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section v3-pilgrimage-section" id="pilgrimages" hidden>
+  <div class="container">
+    <div class="section-head">
+      <h2 data-i18n="indexV3.pilgrimages.heading">Spiritual Journeys</h2>
+      <a href="pilgrimages" class="js-pilgrimage-nav-link" data-i18n="indexV3.pilgrimages.viewAll">View All Pilgrimages <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="v3-pilgrimage-row">
+      <div class="pass-track-wrap v3-pilgrimage-track">
+        <div class="pilgrimage-grid" id="homePilgrimageGrid"></div>
+      </div>
+      <p class="v3-script-note v3-script-pilgrimage" data-i18n-html="indexV3.pilgrimages.scriptNote">Devotion<br>Takes You<br>Further</p>
+    </div>
+  </div>
+</section>
+
+<section class="section v3-gallery-section" id="gallery-v3">
+  <div class="container">
+    <div class="section-head">
+      <h2 data-i18n="indexV3.gallery.heading">Our Gallery</h2>
+    </div>
+    <div class="routes-wrap">
+      <div class="routes-row" id="galleryTrack"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163147745.jpeg" alt="Spacious interior with MBS-branded seats, ceiling fans and overhead luggage racks"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163147854.jpeg" alt="Driver's cabin and front seating area"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163147960.jpeg" alt="Rear of the coach with booking contact details"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163148154.jpeg" alt="Front three-quarter view of the Mahaveer Bus Service coach"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163148262.jpeg" alt="Front view of the coach with Mahaveer Bus Service signage"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163148452.jpeg" alt="Full side profile of the white and blue coach"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163148854.jpeg" alt="Tourist coach front view in the teal and white livery"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163149045.jpeg" alt="Teal and white coach, front and side view"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163149153.jpeg" alt="Teal and white coach parked at the depot"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163149346.jpeg" alt="Tourist coach front view at the depot"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163149554.jpeg" alt="Side view showing the entry door and MBS logo"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163149751.jpeg" alt="Coach cruising along a scenic lakeside road at sunset"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163149850.jpeg" alt="Coach on the expressway at sunset"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163150157.jpeg" alt="Coach travelling through a busy city market road"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163150274.jpeg" alt="Coach on the highway with hills in the distance"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163150362.jpeg" alt="Tourist coach on a forest road"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163150502.jpeg" alt="Tourist coach on a multi-lane expressway"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163150649.jpeg" alt="Tourist coach winding through a hill road with mountain views"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163150851.jpeg" alt="Tourist coach with MBS branding at the bus yard"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/jpeg1790163150954.jpeg" alt="White tourist coach with red and yellow graphics on the road"></div>
+      <button class="scroll-arrow left" id="galleryPrev" onclick="document.getElementById('galleryTrack').scrollBy({left:-240,behavior:'smooth'})"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="scroll-arrow right" id="galleryNext" onclick="document.getElementById('galleryTrack').scrollBy({left:240,behavior:'smooth'})"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<div class="gallery-lightbox" id="galleryLightbox">
+  <button class="gallery-lightbox-close" id="galleryLightboxClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+  <button class="gallery-lightbox-nav prev" id="galleryLightboxPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+  <div class="gallery-lightbox-content">
+    <img class="gallery-lightbox-img" id="galleryLightboxImg" src="" alt="">
+    <p class="gallery-lightbox-caption" id="galleryLightboxCaption"></p>
+  </div>
+  <button class="gallery-lightbox-nav next" id="galleryLightboxNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<section class="section v3-comfort-section fleet" id="fleet-v3">
+  <div class="v3-comfort-grid">
+    <div class="v3-comfort-photo">
+      <img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163140739.png" alt="Mahaveer Bus Service fleet at Jaipur">
+      <div class="v3-comfort-scrim"></div>
+      <div class="v3-comfort-location">
+        <i class="fa-solid fa-location-dot"></i>
+        <div><strong>Bharatpur, Rajasthan</strong><span data-i18n="indexV3.fleet.locationTag">Our Roots. Your Routes.</span></div>
+      </div>
+      <div class="v3-comfort-caption">
+        <span class="v3-comfort-photo-eyebrow" data-i18n="indexV3.fleet.eyebrow">Safe Journeys . Stronger Connections</span>
+        <h2><span data-i18n="indexV3.fleet.headingLine1">Travel in</span><br><span class="accent" data-i18n="indexV3.fleet.headingLine2">Comfort</span></h2>
+        <p data-i18n="indexV3.fleet.sub">Clean coaches, spacious seats and a smoother journey experience.</p>
+        <div class="v3-comfort-stats">
+          <div><i class="fa-solid fa-shield-halved"></i><div><strong>75+</strong><span data-i18n="indexV3.fleet.statLegacyLabel">Years Legacy</span></div></div>
+          <div><i class="fa-solid fa-users"></i><div><strong data-i18n="indexV3.fleet.statPassengersValue">Thousands</strong><span data-i18n="indexV3.fleet.statPassengersLabel">of Happy Passengers</span></div></div>
+          <div><i class="fa-solid fa-route"></i><div><strong data-i18n="indexV3.fleet.statTrustedValue">Trusted</strong><span>Rajasthan</span></div></div>
+        </div>
+      </div>
+      <p class="v3-script-note v3-script-comfort" data-i18n-html="indexV3.fleet.scriptNote">People<br>Places<br>A Better Tomorrow</p>
+    </div>
+    <div class="v3-comfort-amenities">
+      <div class="v3-comfort-head">
+        <span class="v3-comfort-eyebrow" data-i18n="indexV3.fleet.amenitiesEyebrow">Comfort Meets Care</span>
+        <h3 data-i18n="indexV3.fleet.amenitiesHeading">Our Amenities</h3>
+      </div>
+      <div class="amenities v3-amenities-grid">
+        <div class="amenity"><div class="ic"><i class="fa-solid fa-chair"></i></div><div><span data-i18n="indexV3.fleet.amenitySeating">Recliner Seats</span><small data-i18n="indexV3.fleet.amenitySeatingDesc">Relax on every journey</small></div></div>
+        <div class="amenity"><div class="ic"><i class="fa-solid fa-snowflake"></i></div><div><span data-i18n="indexV3.fleet.amenityAc">Air Conditioning</span><small data-i18n="indexV3.fleet.amenityAcDesc">Travel in comfort</small></div></div>
+        <div class="amenity"><div class="ic"><i class="fa-solid fa-droplet"></i></div><div><span data-i18n="indexV3.fleet.amenityWater">Water Bottle</span><small data-i18n="indexV3.fleet.amenityWaterDesc">Stay refreshed</small></div></div>
+        <div class="amenity"><div class="ic"><i class="fa-solid fa-bed"></i></div><div><span data-i18n="indexV3.fleet.amenityBlanket">Blanket &amp; Pillow</span><small data-i18n="indexV3.fleet.amenityBlanketDesc">Added comfort for long journeys</small></div></div>
+        <div class="amenity"><div class="ic"><i class="fa-solid fa-bolt"></i></div><div><span data-i18n="indexV3.fleet.amenityCharging">Charging Point</span><small data-i18n="indexV3.fleet.amenityChargingDesc">Stay connected</small></div></div>
+        <div class="amenity"><div class="ic"><i class="fa-solid fa-door-open"></i></div><div><span data-i18n="indexV3.fleet.amenityExit">Emergency Exit</span><small data-i18n="indexV3.fleet.amenityExitDesc">Your safety, our priority</small></div></div>
+      </div>
+      <a href="#search" class="v3-comfort-cta">
+        <div class="ic"><i class="fa-solid fa-bus"></i></div>
+        <div class="v3-comfort-cta-text"><small data-i18n="indexV3.fleet.ctaEyebrow">A Comfortable Journey</small><strong data-i18n="indexV3.fleet.ctaHeading">Begins With Us</strong></div>
+        <i class="fa-solid fa-arrow-right v3-comfort-cta-arrow"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section steps">
+  <div class="container">
+    <h2 data-i18n="indexV3.steps.heading">Simple Steps to Book Your Ticket</h2>
+    <div class="steps-row">
+      <div class="step">
+        <div class="circle"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <h4 data-i18n="indexV3.steps.search.title">1. Search</h4>
+        <p data-i18n="indexV3.steps.search.desc">Enter your journey details and search buses</p>
+      </div>
+      <div class="step">
+        <div class="circle"><i class="fa-solid fa-bus"></i></div>
+        <h4 data-i18n="indexV3.steps.select.title">2. Select</h4>
+        <p data-i18n="indexV3.steps.select.desc">Choose your preferred bus, time and seat</p>
+      </div>
+      <div class="step">
+        <div class="circle"><i class="fa-solid fa-credit-card"></i></div>
+        <h4 data-i18n="indexV3.steps.pay.title">3. Pay</h4>
+        <p data-i18n="indexV3.steps.pay.desc">Make a secure payment online</p>
+      </div>
+      <div class="step">
+        <div class="circle"><i class="fa-solid fa-ticket"></i></div>
+        <h4 data-i18n="indexV3.steps.ticket.title">4. Ticket</h4>
+        <p data-i18n="indexV3.steps.ticket.desc">Get your e-ticket on SMS and email instantly</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section v3-about-section" id="about-v3">
+  <div class="container v3-about-grid">
+    <img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163140739.png" class="v3-about-img" alt="Mahaveer Bus Service Fleet">
+    <div>
+      <h2 class="section-title-v3" data-i18n="indexV3.about.heading">About Operator</h2>
+      <div class="v3-about-text" id="v3AboutTextIntro"></div>
+      <div class="v3-about-stats">
+        <div><strong id="aboutBusesCount">1</strong><span data-i18n="indexV3.about.statsBuses">Buses in Fleet</span></div>
+        <div><strong id="aboutRoutesCount">1</strong><span data-i18n="indexV3.about.statsRoutes">Active Routes</span></div>
+        <div><strong>1951</strong><span data-i18n="indexV3.about.statsSince">Serving Since</span></div>
+        <div><strong>Bharatpur</strong><span><span data-i18n-swap="text" data-hi-text="राजस्थान">Rajasthan</span> <span data-i18n="indexV3.about.statsBased">Based</span></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="container v3-about-text-full" id="v3AboutTextRest"></div>
+  <div id="v3AboutTextSource" hidden><h3>A Legacy of Trust Since 1951</h3><p>Based in Pujari Mohalla, Pahari, Bharatpur, Rajasthan, Mahaveer Bus Service is a family-run transport service proudly carrying forward a legacy of three generations.</p><p>Our journey began in 1951, with a simple vision: to connect our village with important cities and make travel more accessible and convenient for everyone. Over the years, we have connected passengers to destinations such as Gurgaon and Jaipur, while also serving a wide range of pilgrimage routes.</p><p>For more than seven decades, countless passengers have trusted us to take them safely and comfortably to their destinations. Every journey has been more than just a trip, it has been a connection between families, communities, cities, and places of faith.</p><p>Today, as the third generation continues this journey, we remain committed to preserving the values on which Mahaveer Bus Service was built: trust, reliability, comfort, and honest service.</p><h3>Our Commitment</h3><p>Our goal is simple: to provide every commuter with a comfortable, reliable, and value-for-money travel experience.</p><p>We continuously strive to improve our services, understand our passengers' needs, and make every journey smoother and more convenient.</p><p>From our family to yours, thank you for trusting Mahaveer Bus Service.</p><p>More than 70 years of journeys. Three generations of trust. One commitment: getting you to your destination safely and comfortably.</p></div>
+  <div id="v3AboutTextSourceHi" hidden><h3>1951 से भरोसे की विरासत</h3><p>पुजारी मोहल्ला, पहाड़ी, भरतपुर, राजस्थान में स्थित, महावीर बस सर्विस एक पारिवारिक परिवहन सेवा है जो तीन पीढ़ियों की विरासत को आगे बढ़ा रही है।</p><p>हमारी यात्रा 1951 में एक सरल सोच के साथ शुरू हुई: अपने गाँव को महत्वपूर्ण शहरों से जोड़ना और सभी के लिए यात्रा को अधिक सुलभ और सुविधाजनक बनाना। वर्षों के दौरान, हमने यात्रियों को गुड़गांव और जयपुर जैसे गंतव्यों से जोड़ा है, साथ ही कई तीर्थ मार्गों पर भी सेवा दी है।</p><p>सात दशकों से अधिक समय से, अनगिनत यात्रियों ने हम पर भरोसा किया है कि हम उन्हें सुरक्षित और आराम से उनके गंतव्य तक पहुँचाएँ। हर यात्रा सिर्फ एक सफर नहीं रही, बल्कि परिवारों, समुदायों, शहरों और आस्था के स्थानों के बीच एक जुड़ाव रही है।</p><p>आज, जब तीसरी पीढ़ी इस यात्रा को आगे बढ़ा रही है, हम उन मूल्यों को बनाए रखने के लिए प्रतिबद्ध हैं जिन पर महावीर बस सर्विस की नींव रखी गई थी: भरोसा, विश्वसनीयता, आराम और ईमानदार सेवा।</p><h3>हमारी प्रतिबद्धता</h3><p>हमारा लक्ष्य सरल है: हर यात्री को एक आरामदायक, भरोसेमंद और किफ़ायती यात्रा अनुभव प्रदान करना।</p><p>हम लगातार अपनी सेवाओं को बेहतर बनाने, अपने यात्रियों की ज़रूरतों को समझने, और हर यात्रा को और अधिक सुगम व सुविधाजनक बनाने का प्रयास करते हैं।</p><p>हमारे परिवार की ओर से आपके परिवार तक, महावीर बस सर्विस पर भरोसा करने के लिए धन्यवाद।</p><p>70 से अधिक वर्षों की यात्राएँ। तीन पीढ़ियों का भरोसा। एक प्रतिबद्धता: आपको सुरक्षित और आराम से आपकी मंज़िल तक पहुँचाना।</p></div>
+  <script>
+    (function(){
+      var intro=document.getElementById("v3AboutTextIntro");
+      // Two authored HTML blobs baked in (English always; Hindi only when
+      // the tenant config supplies aboutTextHi) - pick whichever matches
+      // the active language, falling back to English if no Hindi text was
+      // ever entered for this tenant, and re-split on every language
+      // switch since the split rebuilds v3AboutTextRest into the DOM.
+      function activeSource(){
+        var lang = (window.i18n && window.i18n.getLang) ? window.i18n.getLang() : 'en';
+        var hiSrc = document.getElementById("v3AboutTextSourceHi");
+        if (lang === 'hi' && hiSrc && hiSrc.innerHTML.trim()) return hiSrc;
+        return document.getElementById("v3AboutTextSource");
+      }
+      function split(){
+        var src = activeSource();
+        var rest = document.getElementById("v3AboutTextRest");
+        intro.innerHTML = '';
+        if (!rest) {
+          rest = document.createElement('div');
+          rest.className = 'container v3-about-text-full';
+          rest.id = 'v3AboutTextRest';
+          intro.parentNode.parentNode.appendChild(rest);
+        } else {
+          rest.innerHTML = '';
+        }
+        var nodes=Array.prototype.slice.call(src.childNodes).map(function(n){return n.cloneNode(true)});
+        var headings=nodes.filter(function(n){return n.nodeType===1&&n.tagName==="H3"});
+        var splitIndex=-1;
+        if(headings.length>1){
+          splitIndex=nodes.indexOf(headings[1]);
+        }
+        if(splitIndex===-1){
+          var pCount=0;
+          for(var i=0;i<nodes.length;i++){
+            if(nodes[i].nodeType===1&&nodes[i].tagName==="P"){
+              pCount++;
+              if(pCount===2){splitIndex=i+1;break}
+            }
+          }
+        }
+        if(splitIndex===-1||splitIndex>=nodes.length){
+          nodes.forEach(function(n){intro.appendChild(n)});
+          rest.remove();
+          return;
+        }
+        nodes.slice(0,splitIndex).forEach(function(n){intro.appendChild(n)});
+        nodes.slice(splitIndex).forEach(function(n){rest.appendChild(n)});
+      }
+      split();
+      document.addEventListener('DOMContentLoaded', split);
+      if (window.i18n) split();
+      document.addEventListener('i18n:changed', split);
+    })();
+  </script>
+</section>
+
+
+
+<section class="section v3-testimonials-section" id="testimonials-v3">
+  <div class="container">
+    <div class="section-head v3-testimonials-head">
+      <h2 data-i18n="indexV3.testimonials.heading">What Our Passengers Say</h2>
+    </div>
+    <div class="routes-wrap">
+      <div class="v3-testimonials-grid" id="testimonialsGrid"><div class="v3-testimonial-card"><i class="fa-solid fa-quote-left v3-testimonial-quote-icon"></i><div class="v3-testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Punctual departures every single time. My go-to operator for this route.</p><div class="v3-testimonial-author"><span class="v3-testimonial-avatar">DM</span><span><strong>Deepak Malhotra</strong><small>Bharatpur</small></span></div></div><div class="v3-testimonial-card"><i class="fa-solid fa-quote-left v3-testimonial-quote-icon"></i><div class="v3-testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star v3-testimonial-star-off"></i></div><p>Comfortable overnight journey with clean blankets and good legroom.</p><div class="v3-testimonial-author"><span class="v3-testimonial-avatar">RB</span><span><strong>Ritu Bansal</strong><small>Bharatpur</small></span></div></div><div class="v3-testimonial-card"><i class="fa-solid fa-quote-left v3-testimonial-quote-icon"></i><div class="v3-testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Always on time and very comfortable journey. Best service on my route.</p><div class="v3-testimonial-author"><span class="v3-testimonial-avatar">RS</span><span><strong>Rajesh Sharma</strong><small>Bharatpur</small></span></div></div><div class="v3-testimonial-card"><i class="fa-solid fa-quote-left v3-testimonial-quote-icon"></i><div class="v3-testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Clean buses, polite staff and reliable service. Highly recommend.</p><div class="v3-testimonial-author"><span class="v3-testimonial-avatar">SV</span><span><strong>Sunita Verma</strong><small>Bharatpur</small></span></div></div><div class="v3-testimonial-card"><i class="fa-solid fa-quote-left v3-testimonial-quote-icon"></i><div class="v3-testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star v3-testimonial-star-off"></i></div><p>Very good service for pilgrimage trips. Staff is polite and helpful.</p><div class="v3-testimonial-author"><span class="v3-testimonial-avatar">MG</span><span><strong>Mahesh Gupta</strong><small>Bharatpur</small></span></div></div><div class="v3-testimonial-card"><i class="fa-solid fa-quote-left v3-testimonial-quote-icon"></i><div class="v3-testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Booking online was quick and the bus left right on schedule.</p><div class="v3-testimonial-author"><span class="v3-testimonial-avatar">PT</span><span><strong>Priya Thakur</strong><small>Bharatpur</small></span></div></div><div class="v3-testimonial-card"><i class="fa-solid fa-quote-left v3-testimonial-quote-icon"></i><div class="v3-testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Comfortable seats and courteous drivers. My family travels with them every month.</p><div class="v3-testimonial-author"><span class="v3-testimonial-avatar">GS</span><span><strong>Gurpreet Singh</strong><small>Bharatpur</small></span></div></div><div class="v3-testimonial-card"><i class="fa-solid fa-quote-left v3-testimonial-quote-icon"></i><div class="v3-testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star v3-testimonial-star-off"></i></div><p>Affordable fares and the AC coach made the long trip very pleasant.</p><div class="v3-testimonial-author"><span class="v3-testimonial-avatar">AD</span><span><strong>Anita Devi</strong><small>Bharatpur</small></span></div></div></div>
+      <button class="scroll-arrow left" onclick="document.getElementById('testimonialsGrid').scrollBy({left:-320,behavior:'smooth'})">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="scroll-arrow right" onclick="document.getElementById('testimonialsGrid').scrollBy({left:320,behavior:'smooth'})">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="v3-stats-strip">
+  <div class="container v3-stats-grid">
+    <div class="v3-stat"><i class="fa-solid fa-bus"></i><strong id="statBusesCount">1</strong><span data-i18n="indexV3.stats.buses">Total Buses</span></div>
+    <div class="v3-stat"><i class="fa-solid fa-location-dot"></i><strong id="statRoutesCount">1</strong><span data-i18n="indexV3.stats.routes">Major Routes</span></div>
+    <div class="v3-stat"><i class="fa-solid fa-users"></i><strong data-i18n="indexV3.stats.passengersValue">10M+</strong><span data-i18n="indexV3.stats.passengers">Happy Passengers</span></div>
+    <div class="v3-stat"><i class="fa-solid fa-shield-halved"></i><strong>75+</strong><span data-i18n="indexV3.stats.years">Years of Service</span></div>
+  </div>
+</section>
+
+<section class="section v3-app-section">
+  <div class="v3-app-grid">
+    <div class="v3-app-text">
+      <h2 data-i18n="indexV3.app.heading">Book Anytime, Anywhere</h2>
+      <p data-i18n="indexV3.app.sub">Download our app and enjoy a faster, simpler booking experience.</p>
+      <ul class="v3-app-list">
+        <li><i class="fa-solid fa-check"></i> <span data-i18n="indexV3.app.point1">Instant Booking</span></li>
+        <li><i class="fa-solid fa-check"></i> <span data-i18n="indexV3.app.point2">Live Ticket Access</span></li>
+        <li><i class="fa-solid fa-check"></i> <span data-i18n="indexV3.app.point3">Booking History</span></li>
+        <li><i class="fa-solid fa-check"></i> <span data-i18n="indexV3.app.point4">Exclusive Offers</span></li>
+      </ul>
+      <a class="v3-playstore-badge" href="https://play.google.com/store/apps/details?id=com.apnibus.mahaveerbusservice" data-app-medium="homepage_app_section" target="_blank" rel="noopener" aria-label="Get it on Google Play">
+        <img src="/assets/tenants/dipesh_jain/google-play-badge.png" alt="Get it on Google Play">
+      </a>
+    </div>
+    <div class="v3-app-photo-wrap">
+      <img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163139562.png" class="v3-app-photo" alt="Mahaveer Bus Service on mountain highway">
+      <div class="v3-app-fade"></div>
+    </div>
+    <p class="v3-script-note v3-script-app" data-i18n-html="indexV3.app.scriptNote">Your Journey<br>In Your Pocket</p>
+  </div>
+</section>
+
+<div class="cta-banner v3-cta-banner">
+  <div class="cta-left">
+    <div class="ic"><i class="fa-solid fa-headset"></i></div>
+    <div>
+      <h4 data-i18n="indexV3.cta.heading">Need Help With Your Booking?</h4>
+      <p data-i18n="indexV3.cta.sub">Our support team is ready to assist you.</p>
+    </div>
+  </div>
+  <a href="contact" class="btn-outline-white" data-i18n="indexV3.cta.button">CONTACT US</a>
+</div>
+
+<section class="need-help-band">
+  <div class="container need-help-inner">
+    <h3 data-i18n="home.needHelp.title">Need Help?</h3>
+    <ul class="need-help-links">
+      <li><a href="help-center#faqs" data-i18n="home.needHelp.q1">How do I cancel a ticket?</a></li>
+      <li><a href="help-center#faqs" data-i18n="home.needHelp.q2">How do refunds work?</a></li>
+      <li><a href="help-center#faqs" data-i18n="home.needHelp.q3">How can I track my booking?</a></li>
+    </ul>
+    <a href="help-center" class="need-help-cta"><span data-i18n="home.needHelp.viewAll">View All FAQs</span> <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</section>
+
+<footer class="site-footer" id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo"><img src="https://apnibusassetsgroup87b2.blob.core.windows.net/apnibus-tenant-sites/dipesh_jain/png1790163138831.png" alt="Mahaveer Bus Service Logo"></div>
+        <p data-i18n-swap="text" data-hi-text="महावीर बस सर्विस - भरतपुर, राजस्थान में आपका भरोसेमंद बस यात्रा साथी।">Mahaveer Bus Service - trusted bus travel partner.</p>
+        
+        <div class="footer-app-badge"><a href="https://play.google.com/store/apps/details?id=com.apnibus.mahaveerbusservice" data-app-medium="footer_badge" target="_blank" rel="noopener" aria-label="Get it on Google Play"><img src="/assets/tenants/dipesh_jain/google-play-badge.png" alt="Get it on Google Play"></a></div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.ourServices">Our Services</h4>
+        <ul>
+          
+          <li><a href="my-bookings" data-i18n="nav.myBookings">My Bookings</a></li>
+          
+          
+          <li><a href="track-booking" data-i18n="footer.trackBooking">Track Booking</a></li>
+          <li class="js-pilgrimage-nav-link" hidden><a href="pilgrimages" data-i18n="nav.pilgrimages">Pilgrimages</a></li>
+          <li><a href="routes" data-i18n="nav.routes">Routes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.support">Support</h4>
+        <ul>
+          <li><a href="help-center" data-i18n="footer.helpCenter">Help Center</a></li>
+          <li><a href="cancellation-policy" data-i18n="footer.cancellationPolicy">Cancellation Policy</a></li>
+          <li><a href="contact" data-i18n="footer.contactUs">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.getInTouch">Get in Touch</h4>
+        <ul class="footer-contact">
+          <li><a href="tel:+919829372120"><span class="footer-contact-icon"><i class="fa-solid fa-phone"></i></span> <span>+91 8740004790</span></a></li>
+          <li><a href="mailto:support@mahaveerbusservice.com"><span class="footer-contact-icon"><i class="fa-solid fa-envelope"></i></span> <span>support@mahaveerbusservice.com</span></a></li>
+          <li><a href="#"><span class="footer-contact-icon"><i class="fa-solid fa-location-dot"></i></span> <span>Pujari Mohalla Pahari, Bharatpur, Rajasthan</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span>2026</span> <span>Mahaveer Bus Service</span>. <span data-i18n="footer.rightsReserved">All rights reserved.</span></span>
+      <a href="https://apnibus.com" target="_blank" rel="noopener" class="footer-powered-by">
+        <span data-i18n="footer.poweredByPrefix">Powered by</span>
+        <span class="footer-powered-badge"><img src="/assets/icons/apnibus-logo.png" alt="" class="footer-powered-logo"></span>
+        <span class="footer-powered-wordmark">ApniBus</span>
+      </a>
+      <span class="footer-legal-links">
+        <a href="terms" data-i18n="footer.terms">Terms &amp; Conditions</a> |
+        <a href="privacy" data-i18n="footer.privacy">Privacy Policy</a> |
+        <a href="cancellation-policy" data-i18n="footer.cancellationPolicy">Cancellation Policy</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/api-v1.js?v=f4d02ea33b"></script>
+<script src="/js/pilgrimage-nav.js?v=4e1eff771b"></script>
+<script src="/js/main.js?v=a26f0c1346"></script>
+<script src="/js/confetti.js?v=3882a44fbd"></script>
+<script src="/js/pass-card-render.js?v=28b5ddba96"></script>
+<script src="/js/home-passes.js?v=f8c5ece08d"></script>
+<script src="/js/pilgrimage-card-render.js?v=2251e850b7"></script>
+<script src="/js/pilgrimage-booking-modal.js?v=866493f4a6"></script>
+<script src="/js/home-pilgrimages.js?v=4e094551e3"></script>
+<script src="/js/home-routes-v3.js"></script>
+<script src="/js/index-v3-route-pills.js"></script>
+<script src="/js/home-operator-stats.js?v=0d38d0e9a3"></script>
+<script src="/js/home-dashboard.js?v=231d09257d"></script>
+<script src="/js/home-other-services.js?v=ca48a3ba69"></script>
+<script src="/js/auth-ui.js?v=2b3fbd2f63"></script>
+<script src="/js/login-required-dialog.js?v=0cd187afcc"></script>
+<script src="/js/auth-modal.js?v=aa6165458d"></script>
+<script src="/js/i18n/en.js?v=6e6f8369ab"></script>
+<script src="/js/i18n/hi.js?v=e05c81804e"></script>
+<script src="/js/i18n/i18n.js?v=5b598d71d5"></script>
+</body>
+</html>

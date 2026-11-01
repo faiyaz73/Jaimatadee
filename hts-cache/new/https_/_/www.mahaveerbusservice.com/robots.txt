@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mahaveerbusservice.com/sitemap.xml

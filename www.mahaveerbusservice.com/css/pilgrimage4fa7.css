@@ -1,0 +1,83 @@
+/* Homepage teaser: horizontal scroll grid, mirrors .pass-grid */
+.pilgrimage-grid{display:flex;gap:24px;overflow-x:auto;scroll-behavior:smooth;scroll-snap-type:x mandatory;padding:4px 4px 10px;scrollbar-width:none;-ms-overflow-style:none}
+.pilgrimage-grid::-webkit-scrollbar{display:none}
+
+/* Full pilgrimages.html list: wrapping grid */
+.pilgrimage-list-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+
+.pilgrimage-card{display:flex;flex-direction:column;border-radius:16px;overflow:hidden;box-shadow:var(--shadow);background:#fff;border:1px solid var(--border);transition:transform .25s,box-shadow .25s}
+.pilgrimage-grid .pilgrimage-card{flex:0 0 300px;scroll-snap-align:start}
+.pilgrimage-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.pilgrimage-card-img{height:170px;overflow:hidden;cursor:zoom-in}
+.pilgrimage-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.pilgrimage-card-img:hover img{transform:scale(1.05)}
+
+.pilgrimage-lightbox{display:none;position:fixed;inset:0;z-index:300;background:rgba(13,36,86,.92);opacity:0;transition:opacity .25s;align-items:center;justify-content:center;}
+.pilgrimage-lightbox.open{display:flex;opacity:1;}
+.pilgrimage-lightbox-img{max-width:90vw;max-height:88vh;object-fit:contain;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5);}
+.pilgrimage-lightbox-close{position:absolute;top:20px;right:24px;width:44px;height:44px;border-radius:50%;border:none;background:rgba(255,255,255,.12);color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s;}
+.pilgrimage-lightbox-close:hover{background:rgba(255,255,255,.22);}
+@media(max-width:600px){
+  .pilgrimage-lightbox-close{top:12px;right:12px;}
+}
+.pilgrimage-card-body{padding:18px;display:flex;flex-direction:column;flex:1}
+.pilgrimage-card-body h4{font-size:16px;font-weight:700;color:var(--primary-dark);margin-bottom:4px}
+.pilgrimage-card-body p{font-size:13px;color:var(--text-light);line-height:1.5;min-height:38px}
+.pilgrimage-card-meta{display:flex;gap:14px;margin-top:10px;font-size:12px;color:var(--text-light)}
+.pilgrimage-card-meta i{color:var(--primary);margin-right:4px}
+.pilgrimage-card-foot{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-top:auto;padding-top:14px}
+.pilgrimage-book-btn{white-space:nowrap}
+.pilgrimage-price{font-size:19px;font-weight:800;color:var(--primary-dark);display:block}
+.pilgrimage-price-sub{font-size:11px;color:var(--text-light)}
+.pilgrimage-seats-left{font-size:11px;color:#16A34A;font-weight:600;margin-top:8px}
+
+@media(max-width:600px){
+  .pilgrimage-grid .pilgrimage-card{flex-basis:82vw}
+}
+
+/* ---- booking modal ---- */
+.pilgrim-modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.6);display:none;align-items:center;justify-content:center;padding:20px;z-index:2100}
+.pilgrim-modal-backdrop.open{display:flex}
+.pilgrim-modal{background:#fff;border-radius:16px;max-width:480px;width:100%;max-height:90vh;overflow-y:auto;position:relative;box-shadow:0 24px 60px rgba(15,23,42,.35);padding:28px}
+.pilgrim-modal-close{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;border:1px solid var(--border,#E2E8F0);background:#fff;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px}
+.pilgrim-modal-close:hover{background:var(--bg-alt)}
+.pilgrim-modal h3{font-size:17px;font-weight:700;color:var(--primary-dark);margin-bottom:4px;padding-right:30px}
+.pilgrim-modal-sub{font-size:13px;color:var(--text-light);margin-bottom:16px}
+.pilgrim-modal label{display:block;font-size:12px;font-weight:600;color:var(--text);margin:12px 0 6px}
+.pilgrim-modal input,.pilgrim-modal textarea{width:100%;border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:13px;font-family:inherit}
+.pilgrim-modal-error{color:#DC2626;font-size:12px;margin-top:10px}
+.pilgrim-modal button[type="submit"]{width:100%;justify-content:center;margin-top:18px;padding:12px}
+
+.pilgrim-success-icon{font-size:44px;color:#16A34A;text-align:center;margin-bottom:12px}
+#pilgrimModalSuccessView h3{text-align:center;padding-right:0}
+#pilgrimModalSuccessView>p{text-align:center;font-size:13px;color:var(--text-light);margin-bottom:16px}
+.pilgrim-success-summary{background:var(--bg-alt);border-radius:10px;padding:14px 16px;margin-bottom:18px}
+.pilgrim-summary-row{display:flex;justify-content:space-between;font-size:13px;padding:4px 0}
+.pilgrim-summary-row span{color:var(--text-light)}
+.pilgrim-summary-row strong{color:var(--text)}
+.pilgrim-summary-total{border-top:1px solid var(--border);margin-top:6px;padding-top:8px}
+.pilgrim-summary-total span,.pilgrim-summary-total strong{font-size:15px;font-weight:700;color:var(--primary-dark)}
+.pilgrim-hold-timer{text-align:center;font-size:12px;color:var(--text-light);margin:-6px 0 4px}
+#pilgrimPayBtn{width:100%;justify-content:center;margin-top:14px;padding:12px}
+
+.pilgrim-confirm{position:fixed;inset:0;background:rgba(15,23,42,.55);display:flex;align-items:center;justify-content:center;padding:20px;z-index:1100}
+.pilgrim-confirm[hidden]{display:none}
+.pilgrim-confirm-box{background:#fff;border-radius:14px;padding:22px 20px 18px;max-width:340px;width:100%;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.pilgrim-confirm-icon{font-size:34px;color:#D97706;margin-bottom:8px}
+.pilgrim-confirm-box h4{font-size:16px;font-weight:700;color:var(--primary-dark);margin:0 0 6px}
+.pilgrim-confirm-box p{font-size:13px;color:var(--text-light);margin:0 0 16px;line-height:1.5}
+.pilgrim-confirm-actions{display:flex;gap:10px}
+.pilgrim-confirm-actions .btn{flex:1;justify-content:center;padding:10px 8px}
+
+.pilgrim-spinner{display:inline-block;width:16px;height:16px;border:2.5px solid rgba(100,116,139,.3);border-top-color:var(--primary);border-radius:50%;animation:pilgrimSpin .8s linear infinite;vertical-align:-3px;flex:none}
+.pilgrim-spinner-btn{border-color:rgba(255,255,255,.4);border-top-color:#fff;margin-right:8px}
+.pilgrim-pay-status{display:flex;align-items:center;justify-content:center;gap:10px;background:var(--bg-alt);border-radius:10px;padding:12px 14px;font-size:13px;font-weight:600;color:var(--primary-dark);margin-bottom:10px;text-align:left}
+.pilgrim-pay-status[hidden]{display:none}
+#pilgrimPayBtn:disabled,#pilgrimModalSubmit:disabled{opacity:.85;cursor:progress}
+@keyframes pilgrimSpin{to{transform:rotate(360deg)}}
+
+#pilgrimModalDone{width:100%;justify-content:center}
+
+@media(max-width:600px){
+  .pilgrim-modal{padding:22px;border-radius:14px}
+}

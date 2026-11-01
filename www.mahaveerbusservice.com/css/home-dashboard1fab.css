@@ -1,0 +1,89 @@
+/* Logged-in homepage dashboard — Ride OTP/ticket first, booking search demoted to a "Search Routes" block further down */
+html.hd-logged-in .hero.hero-single,html.hd-checking .hero.hero-single{display:none}
+
+.hd-hero{height:200px;overflow:visible;margin-bottom:0}
+.hd-hero img{width:100%;height:100%;object-fit:cover;object-position:center 25%;display:block}
+.hd-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,23,42,.65) 0%,rgba(15,23,42,.25) 35%,rgba(15,23,42,.7) 100%);z-index:1;pointer-events:none}
+.hd-hero-caption{position:absolute;left:0;right:0;top:22px;z-index:2;padding:0 6%;color:#fff}
+.hd-hero-caption h1{font-size:22px;font-weight:700;margin:0 0 4px;text-shadow:0 2px 8px rgba(0,0,0,.4)}
+.hd-hero-caption p{font-size:13px;margin:0;opacity:.9;text-shadow:0 2px 8px rgba(0,0,0,.4)}
+
+.hd-wrap{padding:20px 0 8px;margin-top:-40px;position:relative;z-index:3}
+.hd-grid{display:flex;flex-direction:column;gap:24px;margin-bottom:8px}
+.hd-col-main,.hd-col-side{min-width:0}
+
+/* Merged ticket + ride OTP card */
+.hd-ticket-card{background:#fff;border-radius:18px;box-shadow:0 10px 28px rgba(15,23,42,.14);overflow:hidden;margin-bottom:18px;border-top:4px solid var(--primary)}
+.hd-ticket-top{display:flex;justify-content:space-between;align-items:center;padding:16px 20px 0}
+.hd-ticket-tag{background:#EFF6FF;color:var(--primary);font-size:11px;font-weight:700;letter-spacing:.5px;padding:5px 12px;border-radius:20px;text-transform:uppercase}
+.hd-ticket-when{font-size:13px;color:var(--text-light);font-weight:600}
+.hd-ticket-route{display:flex;align-items:center;gap:12px;padding:14px 20px 6px;font-size:23px;font-weight:800;color:var(--primary-dark);letter-spacing:-.2px}
+.hd-ticket-route i{font-size:15px;color:var(--accent);background:var(--bg-alt);width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.hd-ticket-meta{display:flex;gap:20px;padding:0 20px 16px;font-size:13px;color:var(--text-light)}
+.hd-ticket-meta strong{color:var(--text);font-weight:600}
+.hd-ticket-meta a{color:var(--primary);font-weight:700;text-decoration:none}
+
+.hd-otp-block{background:linear-gradient(180deg,#F8FAFF 0%,var(--bg-alt,#F5F6FA) 100%);border-top:1px dashed var(--border);padding:18px 20px}
+.hd-otp-head{display:flex;justify-content:center;align-items:center;margin-bottom:12px}
+.hd-otp-label{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--text);letter-spacing:.3px}
+.hd-otp-label i{color:var(--primary)}
+.hd-otp-digits{display:flex;gap:10px;justify-content:center;margin-bottom:10px}
+.hd-otp-digit{background:#fff;border:1px solid var(--border);border-radius:12px;width:64px;height:64px;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:800;color:var(--primary);box-shadow:0 4px 14px rgba(15,23,42,.18)}
+.hd-otp-note{text-align:center;font-size:12px;color:var(--text-light);margin:0}
+
+.hd-view-ticket-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:calc(100% - 40px);margin:18px 20px 20px;text-align:center;padding:14px;border-radius:10px;font-weight:700;box-shadow:0 6px 16px rgba(0,0,0,.12)}
+
+/* Quick actions */
+.hd-quick-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-bottom:24px}
+.hd-qa-btn{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px 8px;display:flex;flex-direction:column;align-items:center;gap:8px;text-decoration:none;color:var(--text);font-size:12px;font-weight:600;transition:.2s;flex:1 1 0;min-width:76px;max-width:120px}
+.hd-qa-btn:hover{box-shadow:0 6px 16px rgba(15,23,42,.08);transform:translateY(-2px)}
+.hd-qa-btn i{font-size:18px;color:var(--primary)}
+
+.hd-section-head{display:flex;justify-content:space-between;align-items:center;margin:8px 0 12px}
+.hd-section-head .routes-title{font-size:17px;font-weight:700;color:var(--primary-dark);margin:0}
+
+#hdMyTickets .mb-card{margin-bottom:10px}
+#hdMyTickets .mb-card:last-child{margin-bottom:0}
+
+.hd-route-row{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.hd-route-row-info{display:flex;flex-direction:column;gap:3px}
+.hd-route-row-name{font-size:14px;font-weight:700;color:var(--primary-dark)}
+.hd-route-row-name i{font-size:11px;color:var(--text-light);margin:0 2px}
+.hd-route-row-sub{font-size:12px;color:var(--text-light)}
+.hd-route-row .btn-sm{padding:8px 16px;font-size:12px;flex-shrink:0}
+
+#hdSearchSlot .search-box{margin:0 0 20px;position:static;background:#fff;border:1px solid var(--border);border-radius:16px;box-shadow:0 6px 20px rgba(15,23,42,.08);width:100%;max-width:none}
+
+/* No-upcoming-trip empty state */
+.hd-empty-card{background:#fff;border:1px dashed var(--border);border-radius:16px;padding:28px 18px;text-align:center;margin-bottom:18px}
+.hd-empty-card i{font-size:26px;color:var(--text-light);margin-bottom:10px}
+.hd-empty-card p{color:var(--text-light);font-size:13px;margin:0 0 14px}
+
+@media(min-width:900px){
+  .hd-hero{height:260px}
+  .hd-hero-caption{top:32px}
+  .hd-hero-caption h1{font-size:28px}
+  .hd-hero-caption p{font-size:15px}
+  .hd-wrap{margin-top:0}
+  .hd-grid{flex-direction:row;align-items:flex-start;gap:28px;position:relative}
+  .hd-col-main{flex:0 0 60%;max-width:60%}
+  .hd-col-main #hdTicketCard{margin-top:-90px;position:relative;z-index:4}
+  .hd-col-side{flex:1 1 0;position:sticky;top:20px}
+  .hd-quick-actions{justify-content:flex-start}
+  .hd-qa-btn{flex:0 0 auto;width:130px}
+  .search-grid{grid-template-columns:1fr auto 1fr 1fr auto}
+
+  #hdMyTickets{display:flex;flex-wrap:nowrap;gap:14px;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+  #hdMyTickets .mb-card{flex:0 0 260px;margin-bottom:0}
+}
+
+@media(max-width:600px){
+  .hd-quick-actions{grid-template-columns:repeat(4,1fr);gap:8px}
+  .hd-qa-btn{padding:12px 4px;font-size:11px}
+  .hd-otp-digit{width:52px;height:52px;font-size:24px}
+  .hd-ticket-route{font-size:19px}
+  .hd-hero{height:150px}
+  .hd-hero-caption h1{font-size:19px}
+  .hd-hero-caption p{font-size:12px}
+  .hd-wrap{margin-top:-28px}
+}
